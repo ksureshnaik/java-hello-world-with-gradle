@@ -31,5 +31,5 @@ phases:
 artifacts:
   files:
     - appspec.yml
-    - build/tmp/jar/
+    - java-hello-world-with-gradle/build/libs/jb-hello-world-0.1.0.jar
     - scripts/*
