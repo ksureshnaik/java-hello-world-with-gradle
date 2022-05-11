@@ -26,7 +26,6 @@ phases:
      - echo Build started on date
      - gradle build
      - gradle jar
-     - gradle package
      - ls -l
     commands:
      - gradle package
