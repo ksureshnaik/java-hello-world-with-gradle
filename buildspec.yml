@@ -25,9 +25,6 @@ phases:
 #     - apply plugin:'java'
      - echo Build started on date
      - gradle build
-     - cd /opt/gradle
-     - ls -la
-     - find / -name jb-hello-world-0.1.0.jar
      - gradle build --scan
     commands:
 #     - gradle package
