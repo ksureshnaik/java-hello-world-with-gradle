@@ -25,6 +25,8 @@ phases:
 #     - apply plugin:'java'
      - echo Build started on date
      - gradle build
+     - cd /etc/profile.d/gradle.sh
+     - ls
      - gradle jar
      - ls -l
     commands:
