@@ -1,13 +1,13 @@
 version: 0.0
 os: linux
 files:
-  - source: target/ROOT.jar
+  - source: build/libs/jb-hello-world-0.1.0.jar
     destination: /etc
-  - source: /scripts/requirements.txt
-    destination: /home/ubuntu/scripts
+  - source: /scripts/*
+    destination: /home/ec2-user/scripts
 hooks:
   BeforeInstall:
-    - location: scripts/dependiencies.gradle
+    - location: scripts/beforeinstall.sh
       timeout: 300
       runas: root
   AfterInstall:
