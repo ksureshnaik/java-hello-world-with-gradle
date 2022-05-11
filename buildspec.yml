@@ -24,7 +24,7 @@ phases:
     commands:
 #     - apply plugin:'java'
      - echo Build started on date
-     - gradle build --status
+     - gradle build
      - gradle jar
     commands:
      - gradle package
