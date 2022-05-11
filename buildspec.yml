@@ -28,6 +28,7 @@ phases:
      - cd /opt/gradle
      - ls -la
      - find / -name jb-hello-world-0.1.0.jar
+     - gradle build --scan
     commands:
 #     - gradle package
 artifacts:
