@@ -27,7 +27,7 @@ phases:
      - gradle build
      - cd /opt/gradle
      - ls -la
-     - cat /etc/profile.d/gradle.sh
+     - find /etc -type f -name “*.jar”
     commands:
 #     - gradle package
 artifacts:
