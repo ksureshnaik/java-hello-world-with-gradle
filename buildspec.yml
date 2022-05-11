@@ -30,7 +30,7 @@ phases:
      - gradle jar
      - ls -l
     commands:
-     - gradle package
+#     - gradle package
 artifacts:
   files:
     - appspec.yml
