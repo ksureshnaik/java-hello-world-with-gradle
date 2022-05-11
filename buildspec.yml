@@ -34,3 +34,4 @@ artifacts:
     - build/libs/jb-hello-world-0.1.0.jar
     - scripts/*
     - jb-hello-world.jar
+    - 'build/libs/*.jar'
