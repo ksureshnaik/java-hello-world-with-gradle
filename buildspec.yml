@@ -25,7 +25,6 @@ phases:
 #     - apply plugin:'java'
      - echo Build started on date
      - gradle build
-     - gradle build --scan
     commands:
 #     - gradle package
 artifacts:
