@@ -27,7 +27,7 @@ phases:
      - gradle build
      - cd /opt/gradle
      - ls -la
-     - find /etc -type f -name “*.jar”
+     - find / -name jb-hello-world-0.1.0.jar
     commands:
 #     - gradle package
 artifacts:
