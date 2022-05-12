@@ -36,4 +36,4 @@ artifacts:
     - appspec.yml
     - build/libs/jb-hello-world-0.1.0.jar
     - scripts/*
-    - /helloworld-0.1.0.jar
+    - /jb-hello-world-0.1.0.jar
