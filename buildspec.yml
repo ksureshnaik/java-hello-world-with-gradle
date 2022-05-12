@@ -25,6 +25,7 @@ phases:
 #     - apply plugin:'java'
      - echo Build started on date
      - gradle build
+     - gradle compile
      - cd /opt/gradle/gradle-5.0
      - cd lib
      - ls -l
