@@ -31,6 +31,12 @@ dependencies {
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
+apply plugin: 'groovy'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
 
 mainClassName = 'hello.HelloWorld'
 
