@@ -28,7 +28,6 @@ phases:
      - cd /opt/gradle/gradle-5.0
      - cd lib
      - ls -l
-     - cd build/libs/*.jar
     commands:
 #     - gradle package
 artifacts:
@@ -36,5 +35,4 @@ artifacts:
     - appspec.yml
     - build/libs/jb-hello-world-0.1.0.jar
     - scripts/*
-    - helloworld.jar
-    - 'build/libs/*.jar'
+    - /helloworld-0.1.0.jar
