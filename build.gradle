@@ -34,6 +34,10 @@ apply plugin: 'application'
 
 mainClassName = 'hello.HelloWorld'
 
+plugins {
+    id 'jar'
+    id 'org.gretty' version '3.0.3'
+}
 // tag::repositories[]
 repositories {
     mavenCentral()
