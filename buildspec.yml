@@ -29,7 +29,7 @@ phases:
 #     - ./gradlew clean
      - gradle clean build
      - cd build
-     - gradle compilegroovy
+#     - gradle compilegroovy
      - cd /opt/gradle/gradle-5.0
      - cd lib
      - ls -l
