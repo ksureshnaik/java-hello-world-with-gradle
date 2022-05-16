@@ -27,7 +27,8 @@ phases:
 #     - apply plugin:'java'
      - echo Build started on date
 #     - ./gradlew clean
-     - gradle build
+     - gradle clean build
+     - cd build
      - gradle compilegroovy
      - cd /opt/gradle/gradle-5.0
      - cd lib
