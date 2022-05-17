@@ -1,2 +1,2 @@
 #!/bin/bash
-echo no need of changes
+java -jar -Dspring.profiles.active=qa jb-hello-world-0.1.0.jar
