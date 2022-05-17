@@ -3,7 +3,7 @@ os: linux
 files:
   - source: build/libs/jb-hello-world-0.1.0.jar
     destination: /etc
-  - source: /scripts/*
+  - source: /scripts/start_server.sh
     destination: /home/ec2-user/scripts
 hooks:
   BeforeInstall:
