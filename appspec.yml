@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: build/libs/jb-hello-world-0.1.0.jar
-    destination: /etc
+    destination: /home/ec2-user/javaapp
   - source: /scripts/*
     destination: /home/ec2-user/scripts
 hooks:
